@@ -1,0 +1,22 @@
+{
+  "name": "backendrickyandmorty",
+  "version": "1.0.0",
+  "description": "Backend Rick and Morty",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "author": "Jorge Luis Rangel",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.10.0",
+    "apollo-server-core": "^3.10.1",
+    "dotenv": "^16.0.1",
+    "mongoose-paginate-v2": "^1.7.0",
+    "moongose": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
